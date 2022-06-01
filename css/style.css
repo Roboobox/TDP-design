@@ -341,6 +341,11 @@ label[for="themeSwitch"] {
     transition: all 0.8s ease-in;
 }
 
+.timeline-card img {
+    object-fit: cover;
+    height: 100% !important;
+}
+
 .timeline-card.active {
     opacity: 1;
 }
