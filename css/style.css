@@ -213,17 +213,17 @@ label[for="themeSwitch"] {
 }
 
 #pamatskola header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/lg/hero_pamatskola.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/md/hero_pamatskola.jpg");
     background-position: 50% 40%;
 }
 
 #dators header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/lg/hero_dators.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/md/hero_dators.jpg");
     background-position: 50% 25%;
 }
 
 #kursi header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/lg/hero_kursi.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/md/hero_kursi.jpg");
     background-position: 50% 48%;
 }
 
@@ -232,16 +232,16 @@ label[for="themeSwitch"] {
 }
 
 #lietotne header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/lg/hero_lietotne.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/md/hero_lietotne.jpg");
     background-position: 50% 65%;
 }
 
 #vidusskola header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/lg/hero_vidusskola.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/md/hero_vidusskola.jpg");
 }
 
 #ludf header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/lg/hero_ludf.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/images/hero/md/hero_ludf.jpg");
     background-position: 50% 55%;
 }
 
