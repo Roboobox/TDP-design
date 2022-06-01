@@ -1,0 +1,107 @@
+.dark-mode #step_container .col-10 div.border.rounded {
+    background-color: var(--primary-dark-mode-accent);
+    border-color: var(--primary-dark-mode-accent) !important;
+}
+
+header {
+    height: 70%;
+}
+
+.hero-text h1 {
+    margin-bottom: 0;
+}
+
+#step_container {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.timeline-event-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timeline-event-container .button-container {
+    border-left: 1px solid #dee2e6;
+}
+
+.timeline-event {
+    margin-bottom: 0;
+}
+.timeline-marker.activates {
+    cursor: pointer;
+}
+
+.timeline-marker.hover {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.timeline-marker.hover:hover {
+    background: var(--primary-color-hover);
+}
+
+.timeline-marker.activates:hover {
+    background: var(--primary-color);
+}
+
+.timeline-event a {
+    text-decoration: none;
+    z-index: 100;
+}
+
+.timeline-line {
+    left: 23px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.timeline-line.preview {
+    left: 0; right: 0;
+    position: relative;
+    display: block;
+    height: 30px;
+}
+
+.step-number {
+    margin: 0 auto;
+    height: 45px;
+    width: 45px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.next-prompt {
+    position: absolute;
+    white-space: nowrap;
+    bottom: 13px;
+    left: 65px;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    animation-name: bounceSideways;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@media only screen and (max-width: 767px) {
+    .timeline-event-container .button-container {
+        border-left: none;
+    }
+}
