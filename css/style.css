@@ -164,7 +164,7 @@ body, html {
 
 header {
     height: 100%;
-    background-image: url("/images/hero/lg/hero_home.png");
+    background-image: url("/images/hero/md/hero_home.png");
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("/images/hero/hero_home_2.jpg");*/
     background-size: cover;
     background-position: center;
@@ -174,11 +174,11 @@ header {
 
 #home header:after {
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content: url("/images/hero/lg/hero_home_dark.png");
+    content: url("/images/hero/md/hero_home_dark.png");
 }
 
 .dark-mode#home header {
-    background-image: url("/images/hero/lg/hero_home_dark.png");
+    background-image: url("/images/hero/md/hero_home_dark.png");
 }
 
 #themeSwitch {

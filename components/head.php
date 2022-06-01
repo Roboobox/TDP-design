@@ -4,7 +4,7 @@
     <title><?=$title ?? 'Title'?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/style.css?v=1" rel="stylesheet">
+    <link href="css/style.css?v=2" rel="stylesheet">
     <?=$customStyles ?? ''?>
 
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
