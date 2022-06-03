@@ -341,11 +341,6 @@ label[for="themeSwitch"] {
     transition: all 0.8s ease-in;
 }
 
-.timeline-card img {
-    object-fit: cover;
-    height: 100% !important;
-}
-
 .timeline-card.active {
     opacity: 1;
 }
@@ -422,6 +417,13 @@ label[for="themeSwitch"] {
     -ms-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+    .timeline-card img {
+        object-fit: cover;
+        height: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {

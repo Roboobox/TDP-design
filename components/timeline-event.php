@@ -3,7 +3,7 @@
                 <span class="timeline-marker d-flex align-items-center justify-content-center">
                     <i class="fa-solid fa-school-flag"></i>
                 </span>
-        <div class="card timeline-card shadow-sm ms-3 ms-sm-4">
+        <div class="card timeline-card shadow-sm ms-2 ms-sm-4">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="<?=$img ?? ''?>" class="img-fluid rounded-start" alt="<?=($title ?? '') . ' image'?>">
