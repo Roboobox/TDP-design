@@ -456,6 +456,9 @@ label[for="themeSwitch"] {
         padding-left: 6px;
         color: rgba(255,255,255,.75);
     }
+    header .dropdown-menu {
+        background: var(--primary-dark-mode);
+    }
 }
 
 @keyframes bounceSideways {
