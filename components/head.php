@@ -22,6 +22,6 @@
     <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=1"></script>
 </head>
 

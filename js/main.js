@@ -1,7 +1,8 @@
 $(document).ready(function() {
     let theme = localStorage.getItem("theme");
     const switcher = $('#themeSwitch');
-    if (theme && theme === "dark") {
+    if ((theme && theme === "dark") ||
+        (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         $('body').addClass('dark-mode');
         switcher.prop('checked', true);
     }
