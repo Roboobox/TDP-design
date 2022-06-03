@@ -60,7 +60,7 @@ include 'components/head.php';
         $title = $lang['roadThreeTitle'];
         $icon = '<i class="fa-solid fa-chalkboard-user"></i>';
         $content = $lang['roadThreeDescription'];
-        $link = $lang['roadThreeDescription'];
+        $link = 'kursi.php';
         include 'components/timeline-event.php';
 
         $img = "./images/hero/lg/hero_projekti.jpg";
